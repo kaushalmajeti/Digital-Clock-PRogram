@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    /* font-size: 4em; */
+    background-image: url(feb\ wallapaer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#clock-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid;
+    height:100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    
+}
